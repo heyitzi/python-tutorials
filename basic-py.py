@@ -68,3 +68,9 @@ print(string1)
 
 string2 = "now I want \na new line"
 print(string2)
+
+# Slicing
+print(name[1:3]) # starts in index 1 and ends in the previous index (in this case 2)
+print(name[:5]) # from the start until before index 5
+print(name[3:]) # from 3 until the end of the string
+
