@@ -62,3 +62,9 @@ is Itz
 # .join() # append new letters
 # .find() # find the position of a substring
 
+#  escaping characters (adding special characters in a string)
+string1 = 'adding \"quotations\" to the string'
+print(string1)
+
+string2 = "now I want \na new line"
+print(string2)
