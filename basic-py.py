@@ -74,3 +74,24 @@ print(name[1:3]) # starts in index 1 and ends in the previous index (in this cas
 print(name[:5]) # from the start until before index 5
 print(name[3:]) # from 3 until the end of the string
 
+# booleans
+done_num = 8 # all numbers are True except 0
+if done_num:
+    print("yes")
+else:
+    print("no")
+
+done_str = "" # all strings are True unless empty (same with lists, tuples and dictionaries)
+if done_str:
+    print("yes")
+else:
+    print("no")
+
+book_1_read = True
+book_2_read = False
+
+read_any_book = any([book_1_read, book_2_read]) # returns True
+# any function will return True if one of them is True
+
+ready_to_serve = all([book_1_read, book_2_read]) # returns False
+# all functions only returns True if ALL of them are True
