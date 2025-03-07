@@ -98,10 +98,14 @@ ready_to_serve = all([book_1_read, book_2_read]) # returns False
 
 # Enums = readable names that are bound to a constant value
 from enum import Enum
-
 # State can be anything you want
 class State(Enum):
     INACTIVE = 0
     ACTIVE = 1
 
 print(list(State))
+
+# input
+age = input("What is your age? ")
+print(f"Your age is {age}")
+
