@@ -95,3 +95,13 @@ read_any_book = any([book_1_read, book_2_read]) # returns True
 
 ready_to_serve = all([book_1_read, book_2_read]) # returns False
 # all functions only returns True if ALL of them are True
+
+# Enums = readable names that are bound to a constant value
+from enum import Enum
+
+# State can be anything you want
+class State(Enum):
+    INACTIVE = 0
+    ACTIVE = 1
+
+print(list(State))
